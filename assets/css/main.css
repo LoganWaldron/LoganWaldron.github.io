@@ -4180,3 +4180,8 @@ input, select, textarea {
   flex: 1;
   min-width: 200px;
 }
+.experience-text a.special {
+  display: inline-block;
+  margin-top: 10px;
+  text-align: left;
+}
