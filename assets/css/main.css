@@ -4191,19 +4191,19 @@ input, select, textarea {
 
 .main-nav ul {
   display: flex;
-  gap: 20px; /* space between items */
   list-style: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li {
   margin: 0;
   padding: 0;
 }
 
 .main-nav li a {
   text-decoration: none;
+  color: inherit;
   font-weight: bold;
-  color: inherit; /* matches the rest of your header text */
-  transition: color 0.2s;
-}
-
-.main-nav li a:hover {
-  color: #00bfff; /* or your theme's accent color */
 }
