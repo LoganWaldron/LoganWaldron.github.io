@@ -4162,28 +4162,21 @@ input, select, textarea {
 
 
 
-	.experience-entry {
-  margin-bottom: 3rem;
-}
-
-.experience-entry h3 {
-  margin-bottom: 1rem;
-}
-
-.experience-row {
+	.experience-row {
   display: flex;
-  align-items: flex-start;
-  gap: 2rem;
-  flex-wrap: wrap;
+  align-items: flex-start; /* aligns items to the top */
+  gap: 20px; /* space between image and text */
+  margin-top: 10px;
+  flex-wrap: wrap; /* makes it responsive on smaller screens */
 }
 
 .experience-img {
-  width: 150px;
-  border-radius: 12px;
-  flex-shrink: 0;
+  width: 150px; /* adjust as needed */
+  height: auto;
+  border-radius: 8px;
 }
 
 .experience-text {
   flex: 1;
-  min-width: 250px;
+  min-width: 200px;
 }
