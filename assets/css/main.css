@@ -4178,7 +4178,7 @@ input, select, textarea {
 
 .experience-text {
   flex: 1;
-  min-width: 200px;
+  min-width: 100px;
 }
 .experience-text a.special {
   display: inline-block;
