@@ -4207,3 +4207,8 @@ input, select, textarea {
   color: inherit;
   font-weight: bold;
 }
+
+::selection {
+	background-color: #ff2400
+
+}
